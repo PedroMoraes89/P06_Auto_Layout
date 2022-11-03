@@ -20,13 +20,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        buttonOne.layer.borderWidth = 1
-        buttonTwo.layer.borderWidth = 1
-        buttonThree.layer.borderWidth = 1
+        view.backgroundColor = .lightGray
         
-        buttonOne.layer.borderColor = UIColor.lightGray.cgColor
-        buttonTwo.layer.borderColor = UIColor.lightGray.cgColor
-        buttonThree.layer.borderColor = UIColor.lightGray.cgColor
+//        buttonOne.layer.borderWidth = 1
+//        buttonTwo.layer.borderWidth = 1
+//        buttonThree.layer.borderWidth = 1
+//        
+//        buttonOne.layer.borderColor = UIColor.lightGray.cgColor
+//        buttonTwo.layer.borderColor = UIColor.lightGray.cgColor
+//        buttonThree.layer.borderColor = UIColor.lightGray.cgColor
         
         countries += ["estonia", "france", "germany", "ireland", "italy", "monaco", "nigeria", "poland", "russia", "spain", "uk", "us"]
         
